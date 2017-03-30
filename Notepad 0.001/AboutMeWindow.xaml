@@ -1,0 +1,17 @@
+﻿<Window x:Class="Notepad_0._001.AboutMeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Notepad_0._001"
+        mc:Ignorable="d" Height="300" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" MouseDown="Window_MouseDown" WindowStyle="None" BorderThickness="1" ShowInTaskbar="False">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="94*"/>
+            <ColumnDefinition Width="53*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Notepad 0.01&#xD;&#xA;" Margin="0,31,79,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontFamily="Consolas" FontSize="20" HorizontalAlignment="Right" Width="142" Grid.ColumnSpan="2"/>
+        <Label Content="Iliescu Dragos-Andrei&#xD;&#xA;         10LF251" HorizontalAlignment="Left" Margin="77,115,0,91" VerticalAlignment="Center" Height="92" Width="180" VerticalContentAlignment="Center" Grid.ColumnSpan="2" FontFamily="Yu Gothic UI Light" FontSize="16" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
+
+    </Grid>
+</Window>
